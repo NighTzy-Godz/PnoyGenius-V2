@@ -1,0 +1,121 @@
+@media screen and (min-width: 1200px) {
+  .landing {
+    padding: 200px 0px;
+    /* background-color: rebeccapurple; */
+  }
+
+  .landing_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .landing .landing_left {
+    flex: 0.5;
+  }
+
+  .landing .landing_left h3 {
+    font-family: andika;
+    font-size: 34px;
+    color: var(--black-);
+  }
+
+  .landing .landing_left h1 {
+    line-height: 120px;
+    font-size: 120px;
+    font-family: oswald_bold;
+    color: var(--light-green-);
+    margin-bottom: 40px;
+  }
+
+  .landing .landing_left p {
+    font-family: var(--font-light-);
+    color: var(--black-);
+    font-size: 21px;
+    margin-bottom: 50px;
+  }
+
+  .landing .landing_left a {
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    background-color: var(--black-);
+    padding: 8px;
+    color: var(--white-);
+    font-size: 21px;
+    font-family: var(--font-light-);
+    transition: all 0.3s ease;
+  }
+
+  .landing .landing_left a:hover {
+    transform: scale(105%);
+  }
+
+  .landing .landing_right {
+    flex: 0.5;
+    /* background-color: rebeccapurple; */
+  }
+
+  .landing .landing_right .landing_img {
+    height: 200px;
+  }
+
+  .landing .landing_right .landing_img img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 25px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .landing {
+    padding: 60px 0px;
+    /* background-color: rebeccapurple; */
+  }
+
+  .landing .container {
+    width: 90%;
+  }
+
+  .landing .landing_left h3 {
+    font-family: andika;
+    font-size: 22px;
+    color: var(--black-);
+  }
+
+  .landing .landing_left h1 {
+    line-height: 70px;
+    font-size: 60px;
+    font-family: oswald_bold;
+    color: var(--light-green-);
+    margin-bottom: 40px;
+  }
+
+  .landing .landing_left p {
+    font-family: var(--font-light-);
+    color: var(--black-);
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .landing .landing_left a {
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    background-color: var(--black-);
+    padding: 7px;
+    color: var(--white-);
+    font-size: 18px;
+    font-family: var(--font-light-);
+    transition: all 0.3s ease;
+  }
+
+  .landing .landing_left a:hover {
+    transform: scale(105%);
+  }
+
+  .landing .landing_right {
+    display: none;
+  }
+}

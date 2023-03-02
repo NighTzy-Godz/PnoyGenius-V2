@@ -1,0 +1,33 @@
+@media screen and (min-width: 1000px) {
+  .timer {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .timer h1 {
+    font-family: var(--font-bold-);
+    font-size: 120px;
+    color: var(--light-green-);
+  }
+
+  .timer .danger {
+    color: var(--red-);
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .timer {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .timer h1 {
+    font-family: var(--font-bold-);
+    font-size: 40px;
+    color: var(--light-green-);
+  }
+
+  .timer .danger {
+    color: var(--red-);
+  }
+}

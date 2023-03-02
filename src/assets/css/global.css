@@ -1,0 +1,82 @@
+@font-face {
+  font-family: oswald_bold;
+  src: url("../fonts/Oswald-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: andika;
+  src: url("../fonts/Andika-Regular.ttf");
+}
+
+@font-face {
+  font-family: gelion-light;
+  src: url("../fonts/Gelion Light.ttf");
+}
+
+@font-face {
+  font-family: gelion-reg;
+  src: url("../fonts/Gelion Regular.ttf");
+}
+
+@font-face {
+  font-family: gelion-bold;
+  src: url("../fonts/Gelion Bold.ttf");
+}
+
+/* =========== CONFIGURATIONS ============= */
+
+:root {
+  --light-green-: #3dc795;
+  --white-: #ffffff;
+  --grey-: #f7fafd;
+  --black-: #233748;
+  --light-black-: rgba(0, 0, 0, 0.325);
+  --red-: #f98484;
+  --dark-red-: #f64c4c;
+  --box-shadow-: 0 4px 30px rgb(87 94 111 / 10%);
+
+  --font-light-: gelion-light;
+  --font-reg-: gelion-reg;
+  --font-bold-: gelion-bold;
+
+  /* 1200PX AND ABOVE */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =========== GLOBAL CLASSES ============= */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
