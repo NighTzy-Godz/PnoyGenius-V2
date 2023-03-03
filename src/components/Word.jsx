@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import "../assets/css/guess_word.css";
 
 import { getScreenSize, font_size_map } from "../utils/formatGuessWord";

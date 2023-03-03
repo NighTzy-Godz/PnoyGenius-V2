@@ -46,7 +46,7 @@ const ExpressMode = () => {
     if (!start)
       return (
         <div id="game_btn" className="d-flex justify-content-center">
-          <Button text="Start" buttonEvent={handleStart} />;
+          <Button text="Start" buttonEvent={handleStart} />
         </div>
       );
 

@@ -26,6 +26,62 @@
   }
 }
 
+@media screen and (767.98px <= width <= 991.98px) {
+  .mainNav {
+    padding: 15px;
+    background-color: var(--dark-green-);
+    box-shadow: var(--box-shadow-);
+  }
+
+  .logo a {
+    font-size: 30px;
+    color: var(--black-);
+    font-family: var(--font-bold-);
+  }
+
+  .mainNav .btn a,
+  .mainNav .btn button {
+    font-size: 17px;
+    display: block;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    color: var(--black-);
+    border-radius: 8px;
+    font-family: var(--font-bold-);
+    background-color: var(--light-green-);
+    border: none;
+  }
+}
+
+@media screen and (575.98px <= width <= 767.98px) {
+  .mainNav {
+    padding: 12px;
+
+    box-shadow: var(--box-shadow-);
+  }
+
+  .logo a {
+    font-size: 28px;
+    color: var(--black-);
+    font-family: var(--font-bold-);
+  }
+
+  .mainNav .btn a,
+  .mainNav .btn button {
+    font-size: 17px;
+    display: block;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    color: var(--black-);
+    border-radius: 8px;
+    font-family: var(--font-bold-);
+    background-color: var(--light-green-);
+    border: none;
+  }
+}
+
 @media screen and (max-width: 575.98px) {
   .mainNav {
     padding: 10px;
@@ -34,7 +90,7 @@
   }
 
   .logo a {
-    font-size: 30px;
+    font-size: 25px;
     color: var(--black-);
     font-family: var(--font-bold-);
   }

@@ -20,6 +20,48 @@
   }
 }
 
+@media screen and (767.98px <= width <=991.98px) {
+  .guess_word {
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+
+  .guess_word h1 {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+
+    /* line-height: 140px; */
+    color: var(--black-);
+    text-transform: capitalize;
+    font-size: 80px;
+    font-family: var(--font-bold-);
+  }
+}
+
+@media screen and (575.98px <= width <=767.98px) {
+  .guess_word {
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+
+  .guess_word h1 {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+
+    /* line-height: 140px; */
+    color: var(--black-);
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: var(--font-bold-);
+  }
+}
+
 @media screen and (max-width: 575.98px) {
   .guess_word {
     text-align: center;

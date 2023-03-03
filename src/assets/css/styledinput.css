@@ -20,6 +20,50 @@
   }
 }
 
+@media screen and (767.98px <= width <= 991.98px) {
+  .styledInput {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .styledInput label {
+    margin-bottom: 8px;
+    font-size: 19px;
+    font-family: var(--font-reg-);
+  }
+
+  .styledInput input {
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid var(--light-black-);
+    outline: rgba(0, 0, 0, 0.846);
+    font-family: var(--font-light-);
+    font-size: 17px;
+  }
+}
+
+@media screen and (575.98px <= width <= 767.98px) {
+  .styledInput {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .styledInput label {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: var(--font-reg-);
+  }
+
+  .styledInput input {
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid var(--light-black-);
+    outline: rgba(0, 0, 0, 0.846);
+    font-family: var(--font-light-);
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 575.98px) {
   .styledInput {
     display: flex;

@@ -53,6 +53,122 @@
   }
 }
 
+@media screen and (767.98px <= width <= 991.98px) {
+  .custom_game .container {
+    width: 85%;
+  }
+
+  .custom_form_container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    min-height: 300px;
+    justify-content: center;
+  }
+  .custom_form {
+    position: relative;
+    background-color: var(--light-green-);
+    padding: 40px 20px 25px 20px;
+
+    border-radius: 10px;
+  }
+
+  .custom_form label {
+    color: var(--black-);
+  }
+
+  .custom_form input {
+    margin-bottom: 20px;
+  }
+
+  .custom_form button {
+    background-color: #476175;
+    color: var(--white-);
+    width: 100%;
+    font-family: var(--font-bold-);
+    font-size: 18px;
+    padding: 7px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .custom_form button:hover {
+    background-color: var(--black-);
+  }
+
+  .custom_form .custom_form_cancel {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+
+  .custom_form .custom_form_cancel a {
+    font-size: 20px;
+    font-family: var(--font-bold-);
+    color: var(--black-);
+  }
+}
+
+@media screen and (575.98px <= width <= 767.98px) {
+  .custom_game .container {
+    width: 88%;
+  }
+
+  .custom_form_container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    min-height: 300px;
+    justify-content: center;
+  }
+  .custom_form {
+    position: relative;
+    background-color: var(--light-green-);
+    padding: 40px 20px 20px 20px;
+
+    border-radius: 10px;
+  }
+
+  .custom_form label {
+    color: var(--black-);
+  }
+
+  .custom_form input {
+    margin-bottom: 20px;
+  }
+
+  .custom_form button {
+    background-color: #476175;
+    color: var(--white-);
+    width: 100%;
+    font-family: var(--font-bold-);
+    font-size: 18px;
+    padding: 7px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .custom_form button:hover {
+    background-color: var(--black-);
+  }
+
+  .custom_form .custom_form_cancel {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+
+  .custom_form .custom_form_cancel a {
+    font-size: 20px;
+    font-family: var(--font-bold-);
+    color: var(--black-);
+  }
+}
+
 @media screen and (max-width: 575.98px) {
   .custom_game .container {
     width: 90%;
@@ -68,7 +184,7 @@
   .custom_form {
     position: relative;
     background-color: var(--light-green-);
-    padding: 40px 20px 30px 20px;
+    padding: 40px 20px 20px 20px;
 
     border-radius: 10px;
   }
