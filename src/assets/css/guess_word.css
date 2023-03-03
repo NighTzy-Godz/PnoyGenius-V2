@@ -36,7 +36,7 @@
     /* line-height: 140px; */
     color: var(--black-);
     text-transform: capitalize;
-    font-size: 80px;
+
     font-family: var(--font-bold-);
   }
 }
@@ -57,7 +57,7 @@
     /* line-height: 140px; */
     color: var(--black-);
     text-transform: capitalize;
-    font-size: 60px;
+
     font-family: var(--font-bold-);
   }
 }

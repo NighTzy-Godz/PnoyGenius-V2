@@ -37,7 +37,7 @@ const Word = ({ guessWord }) => {
   };
 
   const fontSize = Math.floor(parseInt(getFontSize() / guessWord.length));
-
+  console.log(fontSize);
   return (
     <div className="guess_word" lang="en" style={{ fontSize: fontSize + "px" }}>
       <h1>{guessWord}</h1>
