@@ -17,8 +17,14 @@ export const font_size_map = {
     long: 750,
   },
 
+  laptop: {
+    default: 580,
+    short: 320,
+    long: 850,
+  },
+
   desktop: {
-    default: 800,
+    default: 700,
     short: 400,
     long: 1000,
   },
@@ -26,7 +32,8 @@ export const font_size_map = {
 
 export const getScreenSize = (screenSize) => {
   if (screenSize < 576) return "mobile";
-  if (screenSize > 576 && screenSize <= 767) return "small_tablet";
-  if (screenSize > 767 && screenSize <= 991) return "big_tablet";
+  if (screenSize > 576 && screenSize < 767) return "small_tablet";
+  if (screenSize > 767 && screenSize < 992) return "big_tablet";
+  if (screenSize > 992 && screenSize < 1200) return "laptop";
   if (screenSize >= 1199) return "desktop";
 };

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .timer {
     margin-bottom: 80px;
     text-align: center;
@@ -6,7 +6,24 @@
 
   .timer h1 {
     font-family: var(--font-bold-);
-    font-size: 120px;
+    font-size: 110px;
+    color: var(--light-green-);
+  }
+
+  .timer .danger {
+    color: var(--red-);
+  }
+}
+
+@media screen and (991.98px <= width <= 1199.98px) {
+  .timer {
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .timer h1 {
+    font-family: var(--font-bold-);
+    font-size: 95px;
     color: var(--light-green-);
   }
 
@@ -17,7 +34,7 @@
 
 @media screen and (767.98px <= width <= 991.98px) {
   .timer {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     text-align: center;
   }
 
@@ -34,7 +51,7 @@
 
 @media screen and (575.98px <= width <= 767.98px) {
   .timer {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;
   }
 
@@ -51,7 +68,7 @@
 
 @media screen and (max-width: 575.98px) {
   .timer {
-    margin-bottom: 80px;
+    margin-bottom: 45px;
     text-align: center;
   }
 

@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .mainNav {
-    padding: 20px 15px;
+    padding: 21px;
     /* background-color: var(--dark-green-); */
     box-shadow: var(--box-shadow-);
   }
@@ -10,19 +10,19 @@
     color: var(--black-);
     font-family: var(--font-bold-);
   }
+}
 
-  .mainNav .btn a,
-  .mainNav .btn button {
-    font-size: 17px;
-    display: block;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
+@media screen and (991.98px <= width <= 1199.98px) {
+  .mainNav {
+    padding: 18px;
+    background-color: var(--dark-green-);
+    box-shadow: var(--box-shadow-);
+  }
+
+  .logo a {
+    font-size: 32px;
     color: var(--black-);
-    border-radius: 8px;
     font-family: var(--font-bold-);
-    background-color: var(--light-green-);
-    border: none;
   }
 }
 
@@ -38,20 +38,6 @@
     color: var(--black-);
     font-family: var(--font-bold-);
   }
-
-  .mainNav .btn a,
-  .mainNav .btn button {
-    font-size: 17px;
-    display: block;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
-    color: var(--black-);
-    border-radius: 8px;
-    font-family: var(--font-bold-);
-    background-color: var(--light-green-);
-    border: none;
-  }
 }
 
 @media screen and (575.98px <= width <= 767.98px) {
@@ -66,20 +52,6 @@
     color: var(--black-);
     font-family: var(--font-bold-);
   }
-
-  .mainNav .btn a,
-  .mainNav .btn button {
-    font-size: 17px;
-    display: block;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
-    color: var(--black-);
-    border-radius: 8px;
-    font-family: var(--font-bold-);
-    background-color: var(--light-green-);
-    border: none;
-  }
 }
 
 @media screen and (max-width: 575.98px) {
@@ -93,19 +65,5 @@
     font-size: 25px;
     color: var(--black-);
     font-family: var(--font-bold-);
-  }
-
-  .mainNav .btn a,
-  .mainNav .btn button {
-    font-size: 17px;
-    display: block;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
-    color: var(--black-);
-    border-radius: 8px;
-    font-family: var(--font-bold-);
-    background-color: var(--light-green-);
-    border: none;
   }
 }
