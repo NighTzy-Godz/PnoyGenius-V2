@@ -71,7 +71,7 @@
 @media screen and (991.98px <= width <= 1199.98px) {
   .landing {
     display: flex;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
   }
 
@@ -125,7 +125,7 @@
 @media screen and (767.98px <= width <= 991.98px) {
   .landing {
     display: flex;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
   }
 
@@ -179,7 +179,7 @@
 @media screen and (575.98px <= width <= 767.98px) {
   .landing {
     display: flex;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
   }
 
@@ -233,7 +233,7 @@
 @media screen and (max-width: 575.98px) {
   .landing {
     display: flex;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
 
     /* background-color: rebeccapurple; */
