@@ -30,13 +30,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="about" id="about">
+      {/* <div className="about" id="about">
         <div className="container">
           <div className="mainText">
             <h1>About This Game</h1>
           </div>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };
